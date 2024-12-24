@@ -1,0 +1,36 @@
+{
+
+"order": [
+    {
+        "key": "OrderId",
+        "type": "keyid",
+        "UIComponentTitle": "Order"
+    }
+        ,{
+        "key": "OrderDate",
+        "label": "OrderDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Status",
+        "label": "Status",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "TotalAmount",
+        "label": "TotalAmount",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isFloat"
+, "isPositive"
+        ]
+                            }
+]
+}

@@ -1,0 +1,34 @@
+{
+
+"customersupport": [
+    {
+        "key": "TicketId",
+        "type": "keyid",
+        "UIComponentTitle": "CustomerSupport"
+    }
+        ,{
+        "key": "IssueDescription",
+        "label": "IssueDescription",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Status",
+        "label": "Status",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "CreatedDate",
+        "label": "CreatedDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}

@@ -1,0 +1,36 @@
+{
+
+"discount": [
+    {
+        "key": "DiscountId",
+        "type": "keyid",
+        "UIComponentTitle": "Discount"
+    }
+        ,{
+        "key": "Percentage",
+        "label": "Percentage",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isFloat"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "Description",
+        "label": "Description",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Validity",
+        "label": "Validity",
+        "type": "date",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}

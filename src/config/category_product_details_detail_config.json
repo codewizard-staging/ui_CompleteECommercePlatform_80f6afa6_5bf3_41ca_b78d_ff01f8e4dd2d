@@ -1,0 +1,18 @@
+{
+
+"category": [
+    {
+        "key": "CategoryId",
+        "type": "keyid",
+        "UIComponentTitle": "Category"
+    }
+        ,{
+        "key": "Name",
+        "label": "Name",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}

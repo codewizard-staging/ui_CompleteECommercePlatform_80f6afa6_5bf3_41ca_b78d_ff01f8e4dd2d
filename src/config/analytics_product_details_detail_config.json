@@ -1,0 +1,38 @@
+{
+
+"analytics": [
+    {
+        "key": "AnalyticsId",
+        "type": "keyid",
+        "UIComponentTitle": "Analytics"
+    }
+        ,{
+        "key": "ReportDate",
+        "label": "ReportDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Sales",
+        "label": "Sales",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isFloat"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "Traffic",
+        "label": "Traffic",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isNumber"
+, "isPositive"
+        ]
+                            }
+]
+}

@@ -1,0 +1,42 @@
+{
+
+"shipment": [
+    {
+        "key": "ShipmentId",
+        "type": "keyid",
+        "UIComponentTitle": "Shipment"
+    }
+        ,{
+        "key": "Carrier",
+        "label": "Carrier",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "TrackingNumber",
+        "label": "TrackingNumber",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Status",
+        "label": "Status",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "ShipmentDate",
+        "label": "ShipmentDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}

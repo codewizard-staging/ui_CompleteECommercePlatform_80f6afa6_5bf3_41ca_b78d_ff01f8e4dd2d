@@ -1,0 +1,18 @@
+{
+
+"wishlist": [
+    {
+        "key": "WishlistId",
+        "type": "keyid",
+        "UIComponentTitle": "Wishlist"
+    }
+        ,{
+        "key": "CreatedDate",
+        "label": "CreatedDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}

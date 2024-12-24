@@ -1,0 +1,36 @@
+{
+
+"review": [
+    {
+        "key": "ReviewId",
+        "type": "keyid",
+        "UIComponentTitle": "Review"
+    }
+        ,{
+        "key": "Rating",
+        "label": "Rating",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isNumber"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "Comment",
+        "label": "Comment",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "ReviewDate",
+        "label": "ReviewDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}

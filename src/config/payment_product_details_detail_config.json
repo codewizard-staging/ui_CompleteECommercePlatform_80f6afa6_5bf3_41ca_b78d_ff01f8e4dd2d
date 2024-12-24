@@ -1,0 +1,44 @@
+{
+
+"payment": [
+    {
+        "key": "PaymentId",
+        "type": "keyid",
+        "UIComponentTitle": "Payment"
+    }
+        ,{
+        "key": "PaymentDate",
+        "label": "PaymentDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Amount",
+        "label": "Amount",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isFloat"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "Method",
+        "label": "Method",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Status",
+        "label": "Status",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}
